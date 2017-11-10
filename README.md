@@ -2,7 +2,7 @@
 Spring Mvc deneme
 
 
-Uygulamayı öğrenme sürecimdeyken yazdığım için eksikler ve bug lar bulunmakta daha sonradan dönüp bakma fırsatım olmadı sürekli ilerlemeye devam ettiğim için  
+Uygulamayı öğrenme sürecimdeyken yazdığım için eksikler ve bug lar bulunmakta daha sonradan dönüp bakma fırsatım olmadı sürekli ilerlemeye devam ettiğim için
 
 
 
