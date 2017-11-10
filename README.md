@@ -5,9 +5,15 @@ Spring Mvc deneme
 Uygulamayı öğrenme sürecimdeyken yazdığım için eksikler ve bug lar bulunmakta daha sonradan dönüp bakma fırsatım olmadı sürekli ilerlemeye devam ettiğim için  
 
 
+
 çalıştırabilmek için aşağıdaki talimatları uygulayın.
 
 öncelikle db.sql i mysql workbench de çalıştırın ve database şemasını oluşturun.
+
+db.sql i çalıştırdıysanız default olarak 
+
+	username : asdqwe
+	password : asdqwe
 
 App ın db ile bağlantısını jndi lookup ile yaptığımdan dolayı aşağıdaki talimatları uygulayıp bağlantıyı sizinde sağlamanız gerekmektedir.
 
