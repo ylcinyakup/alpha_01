@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="DefaultTemplate" template="/WEB-INF/templates/default.jsp">
+		<put-attribute name="title" value="Homepage"></put-attribute>
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/tiles/content.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"></put-attribute>
+	</definition>
+
+	<definition name="home" extends="DefaultTemplate">
+		<put-attribute name="title" value="Offers Homepage"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/home.jsp"></put-attribute>
+
+	</definition>
+
+
+
+	<definition name="adminHandleUsers" extends="DefaultTemplate">
+		<put-attribute name="title" value="Handle Users"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/adminHandleUsers.jsp"></put-attribute>
+	</definition>
+
+	<definition name="adminPage" extends="DefaultTemplate">
+		<put-attribute name="title" value="Admin Page"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/adminPage.jsp"></put-attribute>
+	</definition>
+
+	<definition name="createUser" extends="DefaultTemplate">
+		<put-attribute name="title" value="Create User"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/createUser.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="addressPage" extends="DefaultTemplate">
+		<put-attribute name="title" value="Address Page"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/addressPage.jsp"></put-attribute>
+	</definition>
+
+
+
+	<definition name="denied" extends="DefaultTemplate">
+		<put-attribute name="title" value="Denied"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/denied.jsp"></put-attribute>
+	</definition>
+
+	<definition name="error" extends="DefaultTemplate">
+		<put-attribute name="title" value="Error"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/error.jsp"></put-attribute>
+	</definition>
+
+	<definition name="login" extends="DefaultTemplate">
+		<put-attribute name="title" value="Login"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/login.jsp"></put-attribute>
+	</definition>
+
+	<definition name="logout" extends="DefaultTemplate">
+		<put-attribute name="title" value="Logged Out"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/jsps/logout.jsp"></put-attribute>
+	</definition>
+
+
+</tiles-definitions>
